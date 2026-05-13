@@ -16,6 +16,8 @@ Inside the terminal, use the command:
 
     sudo apt update
 
+---
+
 se a última linha estiver com pacotes que possam receber um upgrade, use:
 
 if the last line shows that there are packages that can be upgraded, use:
