@@ -30,6 +30,12 @@ then run:
 ---
 O resultado que se espera ao rodar o código:
 
+The expected result after running the code is:
+
     Success! xdp_drop.o created.🍻🍻🍻
+
+(caso falhe, confira se você está dentro da pasta Linux-Docker e tente novamente)
+
+(if it fails, check if you currently are inside the Linux-Docker directory and try again)
 
 ---
