@@ -13,8 +13,8 @@ Compilando o programa eBPF (evita a necessidade de instalar localmente todas as 
 
 Compiling the eBPF program (avoids needing to install all eBPF dependencies locally):
 
-    se não tiver entrado no diretório Linux-Docker, entre (*/Linux-Docker);
-    if you are not inside the Linux-Docker directory, go to it (*/Linux-Docker);
+#   se não tiver entrado no diretório Linux-Docker, entre (*/Linux-Docker);
+#   if you are not inside the Linux-Docker directory, go to it (*/Linux-Docker);
 
     depois rode:
     then run:
