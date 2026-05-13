@@ -24,11 +24,15 @@ if the last line shows that there are packages that can be upgraded, use:
 
     sudo apt upgrade -y
 
+---
+
 espere até que o upgrade seja concluido, em seguida, baixe o docker para finalizar o preparo:
 
 wait untill the upgrade has concluded, afterward, download the docker to finish the first steps:
 
     curl -fsSL https://get.docker.com | sh
+
+---
 
 depois:
 
@@ -37,6 +41,8 @@ then:
     sudo usermod -aG docker $USER
     ("$USER" corresponde ao usuário do prompt, não deve ser trocado)
     ("$USER" corresponds to the current user of the prompt, do not change)
+
+---
 
 finalmente:
 
