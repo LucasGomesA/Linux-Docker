@@ -1,7 +1,7 @@
-Baixando e criando docker em máquinas do tipo linux;
--
-Downloading and creating docker on linux machines;
--
+>Baixando e criando docker em máquinas do tipo linux;
+
+>Downloading and creating docker on linux machines;
+
 Primeiramente, supondo que a máquina ja esteja ligada, acesse a prompt de comando através dos aplicativos;
 ---
 Firstly, supposing the computer is already on, acess the command prompt through the apps menu;
