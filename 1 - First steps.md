@@ -1,16 +1,13 @@
 <summary>Baixando e criando docker em máquinas do tipo linux;</summary>
 
->Downloading and creating docker on linux machines;
+<summary>Downloading and creating docker on linux machines;</summary>
 
-Primeiramente, supondo que a máquina ja esteja ligada, acesse a prompt de comando através dos aplicativos;
----
-Firstly, supposing the computer is already on, acess the command prompt through the apps menu;
----
----
-No terminal, utilize o comando:
----
-Inside the terminal, use the command:
----
+<summary>Primeiramente, supondo que a máquina ja esteja ligada, acesse a prompt de comando através dos aplicativos;</summary>
+<summary>Firstly, supposing the computer is already on, acess the command prompt through the apps menu;</summary>
+
+<summary>No terminal, utilize o comando:</summary>
+<summary>Inside the terminal, use the command:</summary>
+
     sudo apt update
 ---
 se a última linha estiver com pacotes que possam receber um upgrade, use:
