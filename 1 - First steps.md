@@ -50,6 +50,8 @@ lastly:
 
     bash -c "$(curl -sL https://get.containerlab.dev)"
 
+---
+
 Setup concluído!
 
 Setup concluded!
