@@ -1,44 +1,21 @@
+Baixando e criando docker em máquinas do tipo linux;
 Downloading and creating docker on linux machines;
 
-test
 
 
-```
-name: rede-lab
+Primeiramente, supondo que a máquina ja esteja ligada, acesse a prompt de comando através dos aplicativos;
+Firstly, supposing the computer is already on, acess the command prompt through the apps menu;
 
-topology:
-  nodes:
-    # 🖥️ Nó Host
-    host1:
-      kind: linux
-      image: ubuntu:22.04
-      exec:
-        - ip addr add 10.0.0.10/24 dev eth1
-        - ip route add default via 10.0.0.1
+No terminal, utilize o comando:
+Inside the terminal, use the command:
 
-    # 🌐 Roteador
-    router1:
-      kind: linux
-      image: ubuntu:22.04
-      exec:
-        - sysctl -w net.ipv4.ip_forward=1
-        - ip addr add 10.0.0.1/24 dev eth1
-        - ip addr add 192.168.0.1/24 dev eth2
+sudo apt update
 
-    # 🔀 Switch (Bridge)
-    switch1:
-      kind: bridge
+se a última linha estiver com pacotes que possam receber um upgrade, use:
+if the last line shows that there are packages that can be upgraded, use:
 
-    # 🖥️ Segundo Host
-    host2:
-      kind: linux
-      image: ubuntu:22.04
-      exec:
-        - ip addr add 192.168.0.10/24 dev eth1
-        - ip route add default via 192.168.0.1
+sudo apt upgrade -y
 
-  links:
-    - endpoints: ["host1:eth1", "switch1:eth1"]
-    - endpoints: ["router1:eth1", "switch1:eth2"]
-    - endpoints: ["router1:eth2", "host2:eth1"]
-```
+espere até que o upgrade seja concluido, em seguida, baixe o docker para finalizar o preparo:
+wait untill the upgrade has concluded, afterward, download the docker to finish the first steps
+
