@@ -1,5 +1,5 @@
 Baixando e criando docker em máquinas do tipo linux;
-```bash
+```
 Downloading and creating docker on linux machines;
 ```
 
