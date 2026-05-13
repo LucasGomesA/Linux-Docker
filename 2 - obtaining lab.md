@@ -21,8 +21,9 @@ se não tiver entrado no diretório Linux-Docker, entre (cd */Linux-Docker);
 if you are not inside the Linux-Docker directory, go to it (cd */Linux-Docker);
 
 ---
-    depois rode:
-    then run:
+depois rode:
+
+then run:
     
     ./compile.sh
 
