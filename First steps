@@ -28,5 +28,10 @@ sudo usermod -aG docker $USER
 ("$USER" corresponde ao usuário do prompt, não deve ser trocado)
 ("$USER" corresponds to the current user of the prompt, do not change)
 
+finalmente:
+lastly:
+
+bash -c "$(curl -sL https://get.containerlab.dev)"
+
 Setup concluído!
 Setup concluded!
