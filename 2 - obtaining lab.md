@@ -28,3 +28,8 @@ then run:
     ./compile.sh
 
 ---
+O resultado que se espera ao rodar o código:
+
+    Success! xdp_drop.o created.🍻🍻🍻
+
+---
