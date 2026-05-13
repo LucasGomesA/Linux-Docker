@@ -16,7 +16,7 @@ Compiling the eBPF program (avoids needing to install all eBPF dependencies loca
     se não tiver entrado no diretório Linux-Docker, entre (*/Linux-Docker);
     if you are not inside the Linux-Docker directory, go to it (*/Linux-Docker);
 
-    então rode:
-    run:
+    depois rode:
+    then run:
     
     ./compile.sh
