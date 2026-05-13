@@ -1,6 +1,7 @@
 Baixando e criando docker em máquinas do tipo linux;
+```bash
 Downloading and creating docker on linux machines;
-
+```
 
 
 Primeiramente, supondo que a máquina ja esteja ligada, acesse a prompt de comando através dos aplicativos;
